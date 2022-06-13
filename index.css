@@ -13,9 +13,12 @@ body{
     width: 100vw;
 }
 .me{
-    width: 50%;
+    width: 55%;
     height: 100%;
     float: right;
+    object-fit: cover;
+    object-position: 0% 40%;
+    opacity: 50%;
 }
 .desc{
     background-color: rgb(50, 49, 49);
