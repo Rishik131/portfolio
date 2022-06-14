@@ -36,12 +36,14 @@ ul{
 ul li{
     display: inline-block;
     margin: auto;
-    border: solid;
-    
 }
 ul li a{
    text-decoration: none;
    color: white;
+   border: solid;
+   border-width: 0.5px;
+   padding: 7px;
+   border-radius: 7px;
 }
 
 .desc{
