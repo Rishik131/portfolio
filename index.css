@@ -36,6 +36,7 @@ ul{
 ul li{
     display: inline-block;
     margin: auto;
+    margin: auto 4px auto 4px;
 }
 ul li a{
    text-decoration: none;
