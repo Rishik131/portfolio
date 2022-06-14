@@ -23,22 +23,27 @@ body{
     object-position: 0% 40%;
     opacity: 50%;
 }
-nav ul li a{
-   text-decoration: none;
-}
-nav ul li{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-nav{
+
+ul{
+    display: flex;
     width: 100vw;
-    height: 40px;
-    background-color: white;
+    height: 45px;
+    background-color: rgba(255,255,255,0.2);
     position: absolute;
     z-index: 0;
+    border-radius: 0 0 20px 20px;
+}
+ul li{
+    display: inline-block;
+    margin: auto;
+    border: solid;
     
 }
+ul li a{
+   text-decoration: none;
+   color: white;
+}
+
 .desc{
     background-color: rgb(50, 49, 49);
     width: 50vw;
