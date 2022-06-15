@@ -119,6 +119,10 @@ ul li a:hover{
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-
+    font-size: 900;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+i{
+    display: inline-block;
 }
