@@ -123,6 +123,10 @@ ul li a:hover{
     width: 50vw;
     justify-content: space-evenly;
 }
+.social_media{
+    text-decoration: none;
+}
 i{
     display: inline-block;
+    color: white;
 }
