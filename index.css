@@ -67,7 +67,8 @@ ul li a:hover{
 }
 
 .desc{
-    background-color: rgb(50, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(50, 49, 49,0.5);
     width: 50vw;
     height: 50vh;
     margin: 0;
@@ -75,6 +76,35 @@ ul li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.5;
     border-radius: 25px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 5 / 2;
+    border-radius: 25px 0 0 25px;
+}
+.div2 { 
+    grid-area: 1 / 2 / 2 / 5; 
+    border-radius: 0 25px 0 0;
+    text-align: center;
+    padding-top: 15px;
+    font-size:25px;
+    font-weight: 700;
+}
+.div3 { 
+    grid-area: 2 / 2 / 5 / 5; 
+    border-radius: 0 0 25px 0;
+}
+
+.me2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 0 0 25px;
 }
