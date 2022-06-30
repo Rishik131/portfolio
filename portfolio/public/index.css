@@ -4,4 +4,8 @@
 }
 body{
     background-color: black;
+    background-image: url("https://github.com/Rishik131/portfolio/blob/main/portfolio/src/elements/img1.png?raw=true");
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
